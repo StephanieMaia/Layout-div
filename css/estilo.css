@@ -1,0 +1,41 @@
+/*minha folha de estilo para divs*/
+/*É  possivel passar propriedades na folha de estilo de tres modos distintos:
+
+1- propriedades CSS para TAG html*/
+body {
+  /*as chaves contém todas as propriedades necessarias para estilização da tag definida*/
+  background-color: #055647;
+  color: #fff; /*propriedade altera a cor dos textos*/
+
+}
+/*2- propriedades CSS para os identificadores (atributos id)*/
+/*esta propriedade sempre sera precedida de # (sustenido)*/
+
+#principal{
+  background-color:red ;
+  color: blue;
+}
+#cabecalho{
+  background-color: green;
+  color: white;
+}
+#menu{
+  background-color: purple;
+  /*color: pink;*/
+}
+#conteudo{
+  background-color: black;
+  color: yellow;
+}
+#rodape{
+  background-color: orange;
+  color: black;
+}
+
+/*3- Classes de CSS são defidas através de nomes próprios.
+Identificadas através de um . (ponto) antes de seu nome.*/
+
+.minha-classe{
+  color: yellow;
+  font-weight: 900;
+}
