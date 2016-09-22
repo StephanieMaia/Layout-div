@@ -29,6 +29,7 @@ body{
     overflow: hidden;
     width: 900px;
   }
+
   #navbar ul li{
     background: #ccc;
     float: left;
@@ -49,7 +50,7 @@ body{
   }
 #content{
   overflow: auto;
-  background-color: #000;
+  background-color: blue;
 }
 #esquerda{
   float: left;
@@ -115,6 +116,7 @@ a: link{
 a:visited{
   color: #fff;
 }
+
 a:hover{
   color:#000;
   text-decoration: underline;
