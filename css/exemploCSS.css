@@ -110,17 +110,21 @@ h4{
   font-size: 12px;
   color: #036;
 }
-a: link{
+a:link{
+  /*pseudo-elemento 'link': quando o link existir sem que tenha sido clicado.*/
   color: #03c;
 }
 a:visited{
+  /*pseudo-elemento 'visited': ocorre quando um link já foi clicado e sua página destino já foi acessada.*/
   color: #fff;
 }
 
 a:hover{
+  /*pseudo-elemento hover: ocorre quando o mouse é posicionado sobre o link e cria uma decoração com um sublinha em baixo do texto*/
   color:#000;
   text-decoration: underline;
 }
 a:active{
+  /*pseudo-elemento active: ocorre quando o botão do mouse é pressionado sobre o elemento mas não é soltado*/
   color: #099;
 }
